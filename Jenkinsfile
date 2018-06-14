@@ -24,7 +24,7 @@ node {
 
             // need to pull out assigned username
             rmsg = bat returnStdout: true, script: "sfdx force:org:create --definitionfile config/project-scratch-def.json --setdefaultusername"
-            printf rmsg
+            //printf rmsg
             if (rmsg != 0) { error 'org creation failed' }
             
             //def jsonSlurper = new JsonSlurperClassic()
