@@ -5,7 +5,8 @@ node {
     def BUILD_NUMBER=env.BUILD_NUMBER
     def RUN_ARTIFACT_DIR="tests/${BUILD_NUMBER}"
     def SFDC_USERNAME
-
+    def SFDX_PROJECT_CONFIG="config/project-scratch-def.json"
+    
     def HUB_ORG = env.HUB_ORG_DH
     def SFDC_HOST = env.SFDC_HOST_DH
     def JWT_KEY_CRED_ID = env.JWT_CRED_ID_DH
@@ -15,7 +16,12 @@ node {
         // when running in multi-branch job, one must issue this command
         checkout scm
     }
-     
+
+    stage('sfdx update') {
+        ru = bat returnStatus: true, script: "sfdx update"
+        if (ru != 0) { error 'sfdx update failed' }
+    }
+    
     withCredentials([file(credentialsId: JWT_KEY_CRED_ID, variable: 'SERVER_KEY')]) {
         stage('Create Scratch Org') {
 
@@ -23,7 +29,7 @@ node {
             if (rc != 0) { error 'hub org authorization failed' }
 
             // need to pull out assigned username
-            rmsg = bat returnStdout: true, script: "sfdx force:org:create --definitionfile config/project-scratch-def.json --setdefaultusername"
+            rmsg = bat returnStdout: true, script: "sfdx force:org:create --definitionfile ${SFDX_PROJECT_CONFIG} --setdefaultusername"
             //printf rmsg
             if (rmsg != 0) { error 'org creation failed' }
             
