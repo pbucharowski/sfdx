@@ -16,12 +16,7 @@ node {
         // when running in multi-branch job, one must issue this command
         checkout scm
     }
-
-    stage('sfdx update') {
-        ru = bat returnStatus: true, script: "sfdx update"
-        if (ru != 0) { error 'sfdx update failed' }
-    }
-    
+   
     withCredentials([file(credentialsId: JWT_KEY_CRED_ID, variable: 'SERVER_KEY')]) {
         stage('Create Scratch Org') {
 
