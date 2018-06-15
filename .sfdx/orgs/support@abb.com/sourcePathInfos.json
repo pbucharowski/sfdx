@@ -1,0 +1,77 @@
+[
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1528887036563,
+            "changeTime": 1528887036563,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1528887036564,
+            "changeTime": 1528887036564,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1528887036565,
+            "changeTime": 1528887036565,
+            "contentHash": "2c2a89c1c45d2977cfce538e475902f5520f4382",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\aura",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1528887036565,
+            "changeTime": 1528887036565,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1529077563290,
+            "changeTime": 1529077563290,
+            "contentHash": "fe5ee5b1d2f2b6eceb946c61b02217737659b9fc",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
