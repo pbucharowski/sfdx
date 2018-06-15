@@ -1,0 +1,268 @@
+[
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1528887036563,
+            "changeTime": 1528887036563,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1529078042856,
+            "changeTime": 1529078042856,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1529080867954,
+            "changeTime": 1529080867954,
+            "contentHash": "2ed1966858a69d044a020a30defd95645b188ea7"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1529078460787,
+            "changeTime": 1529078460787,
+            "contentHash": "f84571e40736719ed0ff9c3d5fbcae6ea6e484d8",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\objects\\Mileage__c\\Mileage__c.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\objects\\Mileage__c\\Mileage__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2076,
+            "modifiedTime": 1529080867893,
+            "changeTime": 1529080867893,
+            "contentHash": "426609f876a49483ae0cf15471fd4ee1c259455f"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\objects\\Mileage__c\\fields\\Date__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\objects\\Mileage__c\\fields\\Date__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 302,
+            "modifiedTime": 1529080867897,
+            "changeTime": 1529080867897,
+            "contentHash": "3aa2f8a93fac4dc61cd0c5780578ea9791519b1b"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\objects\\Mileage__c\\fields\\Miles__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\objects\\Mileage__c\\fields\\Miles__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 384,
+            "modifiedTime": 1529080867899,
+            "changeTime": 1529080867899,
+            "contentHash": "76cab23b4e97a7bc7095ac2ffd8369527bf08b1f"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\layouts\\Mileage__c-Mileage Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\layouts\\Mileage__c-Mileage Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2216,
+            "modifiedTime": 1529080867919,
+            "changeTime": 1529080867919,
+            "contentHash": "857030181a57e4b4bb4191ae921844ddfd5ef3eb"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\classes\\MileageTrackerTestSuite.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\classes\\MileageTrackerTestSuite.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1529080867927,
+            "changeTime": 1529080867927,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\classes\\MileageTrackerTestSuite.cls",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\classes\\MileageTrackerTestSuite.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3490,
+            "modifiedTime": 1529080867932,
+            "changeTime": 1529080867932,
+            "contentHash": "6b96eeed579863a246b9df4420abc636030ec3d1"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 18499,
+            "modifiedTime": 1529080867966,
+            "changeTime": 1529080867966,
+            "contentHash": "63b59448731409646d927a8b092e772c36a41292"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\profiles\\Custom: Support Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\profiles\\Custom: Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 5088,
+            "modifiedTime": 1529080867993,
+            "changeTime": 1529080867993,
+            "contentHash": "c8e66b68d63480f620ff33fc9c4258b5f039dd4e"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\profiles\\Custom: Marketing Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\profiles\\Custom: Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4750,
+            "modifiedTime": 1529080867993,
+            "changeTime": 1529080867993,
+            "contentHash": "2449b68b42465f021d3d77112f39e8fe382c5906"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\profiles\\Custom: Sales Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\profiles\\Custom: Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4750,
+            "modifiedTime": 1529080867993,
+            "changeTime": 1529080867993,
+            "contentHash": "2449b68b42465f021d3d77112f39e8fe382c5906"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\objects\\Mileage__c",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\objects\\Mileage__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1529080867894,
+            "changeTime": 1529080867894,
+            "contentHash": "4fab5a266a26e7cf1c794bf18e09999fabac37ab"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\objects",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1529080867888,
+            "changeTime": 1529080867888,
+            "contentHash": "915617934660a8f64457711ca7c5d6c4beead82a"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\objects\\Mileage__c\\fields",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\objects\\Mileage__c\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1529080867899,
+            "changeTime": 1529080867899,
+            "contentHash": "743c006469be7e4a6ccac563e549dc76736ce07f"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\layouts",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1529080867918,
+            "changeTime": 1529080867918,
+            "contentHash": "ce14256ff88ad6ef45bf222e74de55cb8fd6cf1c"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\classes",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1529080867931,
+            "changeTime": 1529080867931,
+            "contentHash": "691d44365077df76d0e3031f6296ced091a23557"
+        }
+    ],
+    [
+        "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\profiles",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Program Files\\Git\\sfdx\\force-app\\main\\default\\profiles",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1529080867973,
+            "changeTime": 1529080867973,
+            "contentHash": "28a941c36edc4d0e24ad208bddbadc4530145796"
+        }
+    ]
+]

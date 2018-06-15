@@ -18,11 +18,11 @@ private class MileageTrackerTestSuite {
             
         System.debug('Inserting 300  miles... (single record validation)');
         
-        Bot_Command__c testMiles1 = new Bot_Command__c(Miles__c = 300, Date__c = System.today());
+        Mileage__c testMiles1 = new Mileage__c(Miles__c = 300, Date__c = System.today());
         insert testMiles1;
         
         //Validate single insert
-        for(Bot_Command__c m:[SELECT miles__c FROM Bot_Command__c 
+        for(Mileage__c m:[SELECT miles__c FROM Mileage__c 
             WHERE CreatedDate = TODAY
             and CreatedById = :u1.id
             and miles__c != null]) {
@@ -36,13 +36,13 @@ private class MileageTrackerTestSuite {
         totalMiles = 0; 
         System.debug('Inserting 200 mileage records... (bulk validation)');
         
-        List<Bot_Command__c> testMiles2 = new List<Bot_Command__c>();
+        List<Mileage__c> testMiles2 = new List<Mileage__c>();
         for(integer i=0; i<200; i++) {
-            testMiles2.add( new Bot_Command__c(Miles__c = 1, Date__c = System.today()) );
+            testMiles2.add( new Mileage__c(Miles__c = 1, Date__c = System.today()) );
         }
         insert testMiles2;
        
-        for(Bot_Command__c m:[SELECT miles__c FROM Bot_Command__c
+        for(Mileage__c m:[SELECT miles__c FROM Mileage__c
             WHERE CreatedDate = TODAY
             and CreatedById = :u1.Id
             and miles__c != null]) {
@@ -60,10 +60,10 @@ private class MileageTrackerTestSuite {
        User u2 = [SELECT Id FROM User WHERE Alias='tuser'];
        System.RunAs(u2){
         
-        Bot_Command__c testMiles3 = new Bot_Command__c(Miles__c = 100, Date__c = System.today());
+        Mileage__c testMiles3 = new Mileage__c(Miles__c = 100, Date__c = System.today());
         insert testMiles3;
         
-                for(Bot_Command__c m:[SELECT miles__c FROM Bot_Command__c
+                for(Mileage__c m:[SELECT miles__c FROM Mileage__c
             WHERE CreatedDate = TODAY
             and CreatedById = :u2.Id
             and miles__c != null]) {
@@ -84,7 +84,7 @@ private class MileageTrackerTestSuite {
         
        System.debug('Inserting a record with 501 miles... (negative test case)');
         
-       Bot_Command__c testMiles3 = new Bot_Command__c( Miles__c = 501, Date__c = System.today() );
+       Mileage__c testMiles3 = new Mileage__c( Miles__c = 501, Date__c = System.today() );
         
         try {
             insert testMiles3;
@@ -96,7 +96,7 @@ private class MileageTrackerTestSuite {
                 e.getMessage() );
                   
             //Assert field
-            System.assertEquals(Bot_Command__c.Miles__c, e.getDmlFields(0)[0]);
+            System.assertEquals(Mileage__c.Miles__c, e.getDmlFields(0)[0]);
             
             //Assert Status Code
             System.assertEquals('FIELD_CUSTOM_VALIDATION_EXCEPTION' , 

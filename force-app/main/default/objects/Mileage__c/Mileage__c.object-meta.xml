@@ -49,15 +49,15 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Bot Command</label>
+    <label>Mileage</label>
     <nameField>
-        <label>Command Name</label>
+        <label>Mileage Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Bot Commands</pluralLabel>
+    <pluralLabel>Mileages</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
