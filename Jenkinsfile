@@ -55,7 +55,7 @@ node {
         }
         
         stage('Remove Scratch Org') {
-            rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:org:delete --targetusername JenkinsScratchOrg"
+            rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:org:delete -p --targetusername JenkinsScratchOrg"
             if (rc != 0) {
                 error 'Schratch org delete failed'
             }
