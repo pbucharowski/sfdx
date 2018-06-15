@@ -10,7 +10,7 @@ private class MileageTrackerTestSuite {
   
         
         //Set up user
-        User u1 = [SELECT Id FROM User WHERE Alias='auser'];
+        User u1 = [SELECT Id FROM User WHERE Alias='UUser'];
         
         //Run As U1
         System.RunAs(u1){
@@ -57,7 +57,7 @@ private class MileageTrackerTestSuite {
        //Validate additional user:
        totalMiles = 0;
        //Setup RunAs
-       User u2 = [SELECT Id FROM User WHERE Alias='tuser'];
+       User u2 = [SELECT Id FROM User WHERE Alias='UUser'];
        System.RunAs(u2){
         
         Mileage__c testMiles3 = new Mileage__c(Miles__c = 100, Date__c = System.today());
@@ -79,7 +79,7 @@ private class MileageTrackerTestSuite {
    
     static testMethod void runNegativeTestCases() {
 
-       User u3 = [SELECT Id FROM User WHERE Alias='tuser'];
+       User u3 = [SELECT Id FROM User WHERE Alias='UUser'];
        System.RunAs(u3){
         
        System.debug('Inserting a record with 501 miles... (negative test case)');
