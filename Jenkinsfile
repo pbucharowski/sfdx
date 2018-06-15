@@ -47,7 +47,7 @@ node {
             
             echo SFDC_USERNAME
             
-            result = null
+            //result = null
 
         }
 
