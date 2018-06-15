@@ -28,7 +28,7 @@ node {
                      
             rmsg = sh "${toolbelt}/sfdx force:org:create --definitionfile config/project-scratch-def.json --setdefaultusername --durationdays 1 --wait 5 --loglevel debug --json"
             
-            printf rmsg
+            //printf rmsg
             
             def jsonSlurper = new JsonSlurperClassic()
             def robj = jsonSlurper.parseText(rmsg)
