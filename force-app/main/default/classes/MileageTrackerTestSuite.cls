@@ -1,7 +1,7 @@
 @isTest
 private class MileageTrackerTestSuite {
 
-    static testMethod void runPositiveTestCases() {
+/*    static testMethod void runPositiveTestCases() {
         
         Double totalMiles = 0;
         final Double maxtotalMiles = 500;
@@ -76,7 +76,8 @@ private class MileageTrackerTestSuite {
 
       
     } // runPositiveTestCases()
-   
+*/
+    
     static testMethod void runNegativeTestCases() {
 
        User u3 = [SELECT Id FROM User WHERE Alias='UUser'];
