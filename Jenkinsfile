@@ -34,7 +34,7 @@ node {
             def slurper = new groovy.json.JsonSlurperClassic()
             def result = slurper.parseText(rmsg)
             //if (result.status != 0) { error 'org creation failed: ' + result.message }
-            SFDC_USERNAME=result.username
+            SFDC_USERNAME=result.result.username
             result = null
 
         }
