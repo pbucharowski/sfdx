@@ -33,7 +33,7 @@ node {
             
         }
 
-        stage('Push To Test Org') {
+        stage('Push To Scratch Org') {
             rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:source:push --targetusername JenkinsScratchOrg"
             if (rc != 0) {
                 error 'push failed'
@@ -53,5 +53,12 @@ node {
         stage('collect results') {
             junit keepLongStdio: true, testResults: 'tests/**/*-junit.xml'
         }
+        
+        stage('Remove Scratch Org') {
+            rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:org:delete --targetusername JenkinsScratchOrg"
+            if (rc != 0) {
+                error 'Schratch org delete failed'
+            }
+        }        
     }
 }
