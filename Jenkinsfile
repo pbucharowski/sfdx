@@ -34,7 +34,7 @@ node {
             def robj = jsonSlurper.parseText(rmsg)
             //if (robj.status != "ok") { error 'org creation failed: ' + robj.message }
             SFDC_USERNAME=robj
-            robj = null
+            //robj = null
 
         }
 
